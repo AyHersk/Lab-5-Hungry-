@@ -1,0 +1,35 @@
+
+h1{
+    background-image: url("Image/Food head.jpeg");
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+    color: white;
+    padding-top: 50px;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
